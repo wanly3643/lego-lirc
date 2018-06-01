@@ -37,4 +37,4 @@ def lirc_codes():
                 continue
             hex_codes = pf_rc.payload_string(*payload(i, k))
             lirc_patterns = button_string(*button(i, k))
-            print "\t{}\t\t{}".format(lirc_patterns, hex_codes)
+            print ("\t{}\t\t{}".format(lirc_patterns, hex_codes))
